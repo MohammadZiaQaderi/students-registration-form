@@ -1,6 +1,3 @@
-// // StudentRegistrationForm.jsx (Bootstrap Version)
-// // Clean, simple, rewritten from scratch
-
 import React, { useState } from "react";
 
 export default function StudentRegistrationForm() {
@@ -74,7 +71,7 @@ export default function StudentRegistrationForm() {
               <option value="">Select a course</option>
               <option value="BCA">BCA</option>
               <option value="BBA">BBA</option>
-              <option value="BSc IT">BSc IT</option>
+              <option value="BSc IT">BSc CS</option>
               <option value="MBA">MBA</option>
             </select>
           </div>
@@ -87,18 +84,5 @@ export default function StudentRegistrationForm() {
     </div>
   );
 }
-// SimpleCenteredBox.jsx
-// A clean, simple centered box using Bootstrap
 
-// import "bootstrap/dist/css/bootstrap.min.css";
-
-// export default function CenterBox() {
-//   return (
-//          <div className="container d-flex justify-content-ceneter">
-//                 <div className="row mx-auto text-center">
-//                sss
-//                 </div>
-//          </div>
-//   );
-// }
 
